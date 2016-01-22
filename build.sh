@@ -12,7 +12,7 @@ mkdir -p builds/logs
 phpunit --log-junit builds/logs/phpunit.xml
 #phpmd . xml codesize,unusedcode,naming,design --reportfile builds/logs/phppmd.xml --exclude Vendor,Config,Console,uploads,tmp,Test
 #phploc . --log-xml=builds/logs/phploc.xml
-phploc . --log-csv=builds/logs/phploc.csv
-mkdir -p builds/$BUILD_NUMBER/cloverphp
+#phploc . --log-csv=builds/logs/phploc.csv
+#mkdir -p builds/$BUILD_NUMBER/cloverphp
 #mkdir -p builds/api
 
