@@ -11,6 +11,6 @@ phpunit --coverage-clover ./builds/logs/clover.xml
 #phpmd . xml codesize,unusedcode,naming,design --reportfile builds/logs/phppmd.xml --exclude Vendor,Config,Console,uploads,tmp,Test
 #phploc . --log-xml=builds/logs/phploc.xml
 phploc . --log-csv=builds/logs/phploc.csv
-#mkdir -p builds/$BUILD_NUMBER/cloverphp
+mkdir -p builds/$BUILD_NUMBER/cloverphp
 #mkdir -p builds/api
 
